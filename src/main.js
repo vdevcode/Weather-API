@@ -1,4 +1,5 @@
 import { createApp } from "vue";
 import App from "./App.vue";
+import tailWind from "../dist/output.css";
 
-createApp(App).mount("#app");
+createApp(App).use(tailWind).mount("#app");
