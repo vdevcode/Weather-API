@@ -18,7 +18,7 @@
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
         <div class="location-box text-center text-white">
           <div class="location text-3xl font-mono">
-            {{ weather.name }}, {{ weather.sys.country }}
+            {{ weather.name }} City, {{ weather.sys.country }}
           </div>
           <div class="date text-xl text-gray-200">{{ dateBuilder() }}</div>
         </div>
